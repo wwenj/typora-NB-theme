@@ -29,28 +29,28 @@
     font-family: 'Nunito';
     font-style: normal;
     font-weight: normal;
-    src: local("Nunito Sans Regular"), url("./cobalt/nunito/NunitoSans-Regular.woff") format("woff");
+    src: local("Nunito Sans Regular"), url("./NB/nunito/NunitoSans-Regular.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Nunito';
     font-style: italic;
     font-weight: normal;
-    src: local("Nunito Sans It"), url("./cobalt/nunito/NunitoSans-Italic.woff") format("woff");
+    src: local("Nunito Sans It"), url("./NB/nunito/NunitoSans-Italic.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: bold;
-    src: local("Nunito Sans Bold"), url("./cobalt/nunito/NunitoSans-ExtraBold.woff") format("woff");
+    src: local("Nunito Sans Bold"), url("./NB/nunito/NunitoSans-ExtraBold.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Nunito';
     font-style: italic;
     font-weight: bold;
-    src: local("Nunito Sans Bold Italic"), url("./cobalt/nunito/NunitoSans-ExtraBoldItalic.woff") format("woff");
+    src: local("Nunito Sans Bold Italic"), url("./NB/nunito/NunitoSans-ExtraBoldItalic.woff") format("woff");
 }
 
 html {
@@ -71,7 +71,7 @@ body {
     background: #131b29;
     color: #a9aaab;
     margin: 0 auto;
-    max-width: 800px;
+    /* max-width: 800px; */
     padding: 30px;
     padding-bottom: 100px;
     position: static;
@@ -108,7 +108,7 @@ h6 {
 #write h5,
 #write h6,
 #write pre {
-    color: #efb752;
+    color: #ffffff;
     width: auto;
 }
 
@@ -136,6 +136,7 @@ h6 {
 #write h1 {
     font-size: 3.2rem;
     margin: 0.6rem 0;
+    text-align: center;
 }
 
 #write h1::before {
@@ -232,14 +233,14 @@ h6 code {
 }
 
 h1 {
-    border-bottom: 1px solid #f79f2a;
+    border-bottom: 1px solid #fff;
     font-size: 3.25em;
     line-height: 1.2;
     padding-bottom: 0.3em;
 }
 
 h2 {
-    border-bottom: 1px solid #f79f2a;
+    border-bottom: 1px solid #ffffff80;
     font-size: 2.75em;
     line-height: 1.225;
     padding-bottom: 0.3em;
@@ -297,7 +298,7 @@ table {
 }
 
 hr {
-    background-color: #f0b752;
+    background-color: #ffffff;
     border: 0 none;
     box-sizing: content-box;
     height: 2px;
